@@ -5,6 +5,7 @@ def home():
     language = st.selectbox('Choose your language:', ['English', '日本語'])
 
     if language == 'English':
+        st.warning('This deploy version does not have the querying feature powered by GPT. If you want to try the querying feature, please do a local build.')
         st.title("Presentation Checker")
         st.header("Welcome to the Presentation Checker")
         st.write("""
@@ -23,6 +24,7 @@ def home():
             st.image("images/qa_gpt.webp")
 
     elif language == '日本語':
+        st.warning('このデプロイのバージョンにはGPTによる質疑対策の機能がありません。質疑対策の機能を試したい場合は、localでのbuildを行ってください。')
         st.title("プレゼンチェッカー")
         st.header("プレゼンチェッカーへようこそ")
         st.write("""
