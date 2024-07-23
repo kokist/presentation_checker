@@ -21,6 +21,10 @@ This app is a pronunciation checker designed for non-native English speakers.
 It extracts speaker notes from PowerPoint and outputs them as audio.   
 Additionally, by uploading the presentation slides in PDF format, you can prepare for questions using GPT-4o.
 
+# Demo
+https://presentation-checker.streamlit.app/  
+This demo does **not** include the Q&A functionality powered by GPT.
+
 # Installation
 ```
 conda create -n presentation_checker python=3.10
